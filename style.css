@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    background: lavender;
+    
+    height: 100vh;
+}
+.content{
+    
+    max-width: 900px;
+    padding: 20px;
+}
+
+
+.top{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.top h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.img img{
+    
+    border-radius: 50%;
+   
+}
+img{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    margin-top: 50px;
+}
+.about h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.biodata{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.biodata h4{
+    margin-bottom: 20px;
+}
+footer{
+ height: 25px;
+ width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 0;
+   top: 20px;
+}
+ul li {
+    font-size: .8em;
+    list-style: lower;
+    line-height: 20px;
+}
+p{
+    line-height: 25px;
+}
